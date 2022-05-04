@@ -1,0 +1,38 @@
+{
+    "name": "last",
+    "description": "xray websocket proxy on heroku",
+    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "last",
+            "value": "last"
+        },
+        "AUUID": {
+            "description": "last",
+            "value": "f682a37c-f929-4e19-9bfd-5378a846009a"
+        },
+        "CADDYIndexPage": {
+            "description": "last£ºhttps://github.com/lastyear9/note/blob/master/etc/CADDYIndexPage.md",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CONFIGCADDY": {
+            "description": "last",
+            "value": "https://raw.githubusercontent.com/lastyear9/note/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "last",
+            "value": "https://raw.githubusercontent.com/lastyear9/note/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "last",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "last",
+            "value": "https://raw.githubusercontent.com/lastyear9/note/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/lastyear9/note",
+    "repository": "https://github.com/lastyear9/note",
+    "stack": "container"
+}
